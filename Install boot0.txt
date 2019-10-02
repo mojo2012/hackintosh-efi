@@ -1,0 +1,7 @@
+Nicht mit dd einspielen: zerstört GPT, wenn doch, dann mit testdisk unter Ubuntu wiederherstellen
+
+So geht's
+sudo fdisk440  -u -f /usr/standalone/i386/boot0 -y /dev/disk1
+sudo dd if=/Volumes/OSX\ USB/usr/standalone/i386/boot1h of=/dev/rdisk1s1
+
+dann partition 1 aktiv setzen, mit fdisk, p, f 1, w, y

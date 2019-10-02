@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CloverRevision</key>
+	<integer>2061</integer>
+	<key>InstalledThemes</key>
+	<array/>
+	<key>org.clover.bootloader.bootno</key>
+	<true/>
+	<key>org.clover.cloverefi.64.sata</key>
+	<true/>
+	<key>org.clover.drivers64.vboxext2-64</key>
+	<true/>
+	<key>org.clover.drivers64.vboxext4-64</key>
+	<true/>
+	<key>org.clover.drivers64uefi.csmvideodxe-64</key>
+	<true/>
+	<key>org.clover.drivers64uefi.emuvariableuefi-64</key>
+	<true/>
+	<key>org.clover.drivers64uefi.osxaptiofixdrv-64</key>
+	<true/>
+	<key>org.clover.rc.scripts.on.all.volumes</key>
+	<true/>
+	<key>org.clover.themes.applestyle</key>
+	<true/>
+	<key>org.clover.themes.black.green</key>
+	<true/>
+	<key>org.clover.themes.bluemac</key>
+	<true/>
+	<key>org.clover.themes.bootcamp</key>
+	<true/>
+	<key>org.clover.themes.iclover</key>
+	<true/>
+	<key>org.clover.themes.magnifico</key>
+	<true/>
+	<key>org.clover.themes.metal</key>
+	<true/>
+	<key>org.clover.themes.mrengles</key>
+	<true/>
+	<key>org.clover.themes.orange</key>
+	<true/>
+	<key>org.clover.themes.os.box</key>
+	<true/>
+	<key>org.clover.themes.os.one</key>
+	<true/>
+	<key>org.clover.themes.thinkpad</key>
+	<true/>
+</dict>
+</plist>

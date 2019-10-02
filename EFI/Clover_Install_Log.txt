@@ -1,0 +1,52 @@
+
+Clover EFI installer log - Tue Oct  1 10:03:28 CEST 2019
+Installer version: v2.5k r5070 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS macOS                   455.3 GB   disk0s2
+   3:                 Apple_APFS Container disk2         44.3 GB    disk0s3
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *750.2 GB   disk1
+   1:                        EFI EFI                     134.2 MB   disk1s1
+   2:       Microsoft Basic Data Windows                 69.1 GB    disk1s2
+   3:           Windows Recovery                         471.9 MB   disk1s3
+   4:                  Apple_HFS Daten                   680.3 GB   disk1s4
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +44.3 GB    disk2
+                                 Physical Store disk0s3
+   1:                APFS Volume catalina - Daten        6.2 GB     disk2s1
+   2:                APFS Volume Preboot                 83.8 MB    disk2s2
+   3:                APFS Volume Recovery                525.6 MB   disk2s3
+   4:                APFS Volume VM                      1.1 GB     disk2s4
+   5:                APFS Volume catalina                10.5 GB    disk2s5
+
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/macOS/EFIROOTDIR/boot  to /Volumes/macOS/EFI-Backups/r5058/2019-10-01-10h03/boot
+Backing up /Volumes/macOS/EFIROOTDIR/EFI folder to /Volumes/macOS/EFI-Backups/r5058/2019-10-01-10h03/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 2 - Written boot6 (x64) to /Volumes/ESP/boot
+
+Removing UEFI/SMCHelper.efi driver because VirtualSMC driver present
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+Activating /etc/rc.boot.d/70.disable_sleep_proxy_client.local rc script
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
