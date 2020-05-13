@@ -14,7 +14,7 @@ What works:
 * Intel itnernal Bluetooth device
 * 4k at 60Hz using a DP-to-HDMI 2.0 adapter
 * All USB ports (including USB 3.0)
-* Eithernet
+* Ethernet
 * Sleep
 
 What doesnot work:
