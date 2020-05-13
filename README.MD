@@ -5,7 +5,7 @@ This is my current Clover configuration for vanilla macOS 10.15.
 No modification of macOS is needed. All the configurations, kexts and efi drivers are in the EFI partition.
 
 Hardware:
-* Mainboard: [MSI Z390I-GAMING-EDGE-AC](https://asset.msi.com/pdf/main/de/presale_v2/MPG-Z390I-GAMING-EDGE-AC)
+* Mainboard: [MSI Z390I-GAMING-EDGE-AC](https://asset.msi.com/pdf/main/de/presale_v2/MPG-Z390I-GAMING-EDGE-AC) (BIOS 7C04v17)
 * CPU: Intel Core i3 9100F
 * Graphics card: RXFX Radeon RX570 8GB
 
